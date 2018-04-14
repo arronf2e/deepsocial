@@ -1,0 +1,6 @@
+<!--pages/mobx/mobx.wxml-->
+<view>{{props.todoStore.todoText}}</view>
+<view>{{props.todoStore.count}}</view>
+<view wx:for="{{props.todoStore.todos}}">{{item.title}}</view>
+<button bindtap="handleAddTodo">addtodo</button>
+<button bindtap="handleRemoveTodo">removeTodo</button>

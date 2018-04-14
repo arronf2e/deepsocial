@@ -1,0 +1,9 @@
+/* pages/share/index.wxss */
+.share-title {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.button-hover {
+  background-color: #f0f0f0;
+}

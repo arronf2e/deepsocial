@@ -1,0 +1,5 @@
+<!--components/card/card.wxml-->
+<view>
+  <text>{{ title }}</text>
+  <text>{{ content }}</text>
+</view>
