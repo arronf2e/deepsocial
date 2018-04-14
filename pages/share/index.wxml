@@ -1,3 +1,0 @@
-<!--pages/share/index.wxml-->
-<text class='share-title'>分享测试页面</text>
-<button open-type='share'>通过button分享</button>

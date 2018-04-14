@@ -1,32 +1,30 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/share/index",
-    "pages/test/index",
-    "pages/mobx/mobx"
+    "pages/mobx/mobx",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Miniapp Scaffold",
+    "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "borderStyle": "white",
-    "backgroundColor": "#f0f0f0",
-    "color": "#bfbfbf",
-    "selectedColor": "black",
+    "borderStyle": "#fff",
+    "backgroundColor": "#000",
+    "color": "#8a8a8a",
+    "selectedColor": "#FFDD7E",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页",
+        "text": "闲逛",
         "iconPath": "./static/imgs/common/index.png",
         "selectedIconPath": "./static/imgs/common/index-select.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "text": "来认识我",
         "iconPath": "./static/imgs/common/center.png",
         "selectedIconPath": "./static/imgs/common/center-select.png"
       }

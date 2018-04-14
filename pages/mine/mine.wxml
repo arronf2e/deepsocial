@@ -1,0 +1,20 @@
+<view class='wrapper'>
+  <view class='view-gray'></view>
+  <view class='visitor' wx:if='{{visitorAccept}}'>
+    欢迎您，{{visitor.gender === 1 ? '帅气' : '漂亮'}}的{{visitor.nickName}}
+  </view>
+  <view class='visitor' wx:else>
+    <text>{{refuseText}}</text>
+  </view>
+  <view class='label-act' 
+    wx:for='{{lineItems}}'
+    wx:key='{{item.label}}'>
+    <view class='line-content'>
+      <image src='{{item.icon}}' class='line-icon'></image>
+      <text class='line-label'>{{ item.label }}</text>
+    </view>
+  </view>
+  <view class='copy-right'>
+    Developer: Arron
+  </view>
+</view>

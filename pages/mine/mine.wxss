@@ -1,0 +1,45 @@
+page {
+  height: 100%;
+  background: #EEE;
+}
+/* 来访者信息 */
+.visitor {
+  margin-bottom: 20rpx;
+  background: #FFF;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  padding-left: 40rpx;
+  font-size: 28rpx;
+}
+.view-gray {
+  height: 20rpx;
+  background: #EEE;
+}
+.label-act {
+  padding-left: 40rpx;
+  font-size: 28rpx;
+  background: #FFF;
+}
+.line-content {
+  display: flex;
+  align-items: center;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #F0F0F0;
+}
+.line-icon {
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 20rpx;
+}
+
+.copy-right {
+  position: fixed;
+  bottom: 0;
+  left: 0; 
+  width: 100%;
+  text-align: center;
+  padding: 20rpx 0;
+  font-size: 24rpx;
+  color: #999;
+}
