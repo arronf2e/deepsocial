@@ -9,32 +9,32 @@ Page({
       {
         icon: '../../static/imgs/mine/base.png',
         label: '基本信息',
-        nav: '',
+        nav: 'pages/mine/baseinfo/baseinfo',
       },
       {
         icon: '../../static/imgs/mine/experience.png',
         label: '工作经历',
-        nav: '',
+        nav: 'pages/mine/exprience/exprience',
       },
       {
         icon: '../../static/imgs/mine/skill.png',
         label: '技术能力',
-        nav: '',
+        nav: 'pages/mine/skill/skill',
       },
       {
         icon: '../../static/imgs/mine/team.png',
         label: '团队分享',
-        nav: '',
+        nav: 'pages/mine/team/team',
       },
       {
         icon: '../../static/imgs/mine/contact.png',
         label: '联系我',
-        nav: '',
+        nav: 'pages/mine/contact/contact',
       },
       {
         icon: '../../static/imgs/mine/about.png',
         label: '关于',
-        nav: '',
+        nav: 'pages/mine/about/about',
       }
     ],
     visitor: {},
@@ -112,7 +112,7 @@ Page({
   /**
    * 获取来访者的信息
    */
-  getVisitorInfo() {
+  getVisitorInfo () {
     wx.getUserInfo({
       success: res => {
         this.setData({
@@ -126,6 +126,12 @@ Page({
         })
       }
     })
+  },
+  // 二级页面跳转
+  navigateTo (e) {
+    let url = e.currentTarget.dataset.nav;
+    wx.navigateTo({
+      url: `../../${url}`
+    })
   }
-
 })

@@ -30,12 +30,30 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 3,
 			"list": [
 				{
 					"id": 0,
 					"name": "mine",
 					"pathName": "pages/mine/mine",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "about",
+					"pathName": "pages/mine/about/about",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "base",
+					"pathName": "pages/mine/baseinfo/baseinfo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "contact",
+					"pathName": "pages/mine/contact/contact",
 					"query": ""
 				}
 			]

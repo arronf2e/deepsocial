@@ -7,6 +7,8 @@
     <text>{{refuseText}}</text>
   </view>
   <view class='label-act' 
+    bindtap='navigateTo'
+    data-nav='{{item.nav}}'
     wx:for='{{lineItems}}'
     wx:key='{{item.label}}'>
     <view class='line-content'>

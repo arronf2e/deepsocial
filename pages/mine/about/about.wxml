@@ -1,0 +1,12 @@
+<!--关于小程序-->
+<view class='wrapper'>
+  <view class='description'>
+    <image src='{{logo}}' class='logo'></image>
+    <text class='version'>
+      DeepSocial: {{version}}
+    </text>
+  </view>
+  <view class='content'>
+    
+  </view>
+</view>

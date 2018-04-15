@@ -2,7 +2,13 @@
   "pages": [
     "pages/index/index",
     "pages/mobx/mobx",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/mine/baseinfo/baseinfo",
+    "pages/mine/exprience/exprience",
+    "pages/mine/skill/skill",
+    "pages/mine/team/team",
+    "pages/mine/contact/contact",
+    "pages/mine/about/about"
   ],
   "window": {
     "backgroundTextStyle": "light",
